@@ -1,0 +1,16 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen.jpg"
+//#define TB_loadingScreen_imagePath "\a3\ui_f\data\Logos\arma3_expansion_ca.paa"
+
+onLoadName="Witching Hour";
+author="Leon (TacBF Team)";
+onLoadMission= "Attack and Defend [M-30]. Night. Rural. US Rangers (attacking) = littlebirds. No FOs, No MWs. -vs- Insurgents (defending) = light vehicles. No NVGs.";
+
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+
+#include "tb_mountedWeapons.hpp"
+
+#include "tb_vehicleInit.hpp"
